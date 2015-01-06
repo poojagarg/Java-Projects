@@ -1,0 +1,11 @@
+This simple Java GUI program lays a map in the background and one can deploy various warfare items on the map and save the current deployment. 
+
+To configure-
+1-Make a folder named- "Images"
+2-keep 8 images in this folder with following name-
+Arty,snt,Armd,EME,Avn,Inf,Pioneer,Engrs 
+3-Compile ArmyDeployment.java with command- javac ArmyDeployment.java
+4-Keep the compiled classes and folder "Images" in the same folder.
+5-To run: java ArmyDeployment
+
+
