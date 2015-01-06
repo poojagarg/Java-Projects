@@ -1,0 +1,20 @@
+This program analyzes statistical and semantic language models for query based document retrieval and identifies their limitations.
+
+It computes P(c/q) - Given a query, what is the probability of occurrence of a concept for that collection.
+
+In directory DATA/2005 world snooker championship/
+    Query is "2005 world snooker championship"
+    snip_final.txt represents collection. Each line of this file represents a document.
+    Concepts_unformated.txt contains some concepts taken from the snip_final.txt
+      
+To read a full report of this project, refer to report.docx
+
+To compile: javac -d bin -Xlint src/*.java
+
+To run: java -cp ./bin conceptual_modelling.conceptual_modeling_driver
+
+	When choosing location of collection during the execution of program, you may choose test Directory "DATA/2005 world snooker championship" 
+	For parmameter lambda, write a float value between 0 and 1.
+
+Result files are generated in the folder result/
+
